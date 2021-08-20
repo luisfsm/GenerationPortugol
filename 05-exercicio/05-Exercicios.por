@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica-->m
+	inclua biblioteca Matematica-->m
 	
 	funcao inicio()
 	{
@@ -13,9 +13,10 @@ programa
 		escreva("Entre com a terceira nota : ")
 		leia(nota3)
 
-		media = ((nota1*2)/10) + ((nota2*3)/10) + ((nota3*5)/10)
-
+		
+		media = (nota1*0.2) + (nota2*0.3) + (nota3*0.5)
 		escreva(m.arredondar(media,2))
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 371; 
+ * @POSICAO-CURSOR = 155; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
