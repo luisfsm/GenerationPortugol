@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica-->m
+	inclua biblioteca Matematica-->m
 	
 	funcao inicio()
 	{
@@ -14,9 +14,9 @@ programa
 		leia(x2)
 		escreva("Entre com o valor do eixo y2 : ")
 		leia(y2)		
-		resultado = m.raiz(m.potencia((x2-x1), 2.0)+ m.potencia((y2-y1),2.0),2.0)
+		resultado = m.raiz(m.potencia((x2-x1), 2.0) + m.potencia((y2-y1),2.0),2.0)
 
-		escreva("A distância entre eles é : ",m.arredondar(resultado,1))
+		escreva("A distância entre eles é : ",m.arredondar(resultado,2))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 403; 
+ * @POSICAO-CURSOR = 466; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
