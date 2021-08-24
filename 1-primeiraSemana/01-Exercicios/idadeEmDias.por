@@ -14,10 +14,11 @@ programa
 		leia(meses)
 		escreva("dias: ")
 		leia(dias)
-
 		dias += (idade*diasDoAno)+(meses*diasMes)
 
 		escreva("Sua idade em dias : ", dias)
+
+
 		
 	}
 	
@@ -27,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 176; 
+ * @POSICAO-CURSOR = 222; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -14,9 +14,9 @@ programa
 		mes = (idadeEmDias%diasDoAno)/30
 		dia = (idadeEmDias%diasDoAno)%30
 
-		escreva(dia,"\n")
+
 		escreva("Sua Idade Atual : ",idadeEmDias/diasDoAno)
-		escreva("\ns meses : ",mes)
+		escreva("\nEm meses : ",mes)
 		escreva("\nEm dias : ", dia)
 	}
 }
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 168; 
+ * @POSICAO-CURSOR = 239; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
