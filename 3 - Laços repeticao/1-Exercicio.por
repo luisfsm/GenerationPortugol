@@ -26,7 +26,7 @@ programa
 			
 			mediaDependentes += qtdeDependentes/qtdeHabitantes
 
-			se(salario<100){
+			se(salario<=100){
 			 qtdePessoasSalarioMenorCem++
 			}
 		}
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 845; 
+ * @POSICAO-CURSOR = 710; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
