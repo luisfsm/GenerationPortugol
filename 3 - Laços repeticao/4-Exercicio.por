@@ -9,13 +9,9 @@ programa
 		leia(valorEntrada)
 		
 		enquanto(valorEntrada<=100){
-
-			escreva(valorEntrada,"\n")
-
+			escreva(valorEntrada,", ")
 			valorEntrada = valorEntrada * 3
-			se(valorEntrada>=100){
-				escreva(valorEntrada,"\n")
-			}
+			escreva(valorEntrada,", ")
 		}
 	}
 }
@@ -24,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 284; 
+ * @POSICAO-CURSOR = 229; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
