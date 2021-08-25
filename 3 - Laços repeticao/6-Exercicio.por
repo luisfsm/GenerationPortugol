@@ -3,23 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, resultado
-		escreva("Entre com um numero : ")
-		leia(numero)
+		inteiro incrementadorLocal = 0 , valorPassadoPeloUsuario = 0, somaTotal = 0
 
-		se(numero%2==0  e numero >= 0){
-			escreva("O numero digitado ",numero, "  par")
-		}
-		senao{
-			escreva("O numero digitado ", numero, " impar")	
-		}
-		se(numero>=0){
-			escreva("\nPositivo")	
-		}senao{
-			escreva("\nNegativo")
-			
-		}
-	
+		escreva("Meu querido qual a conta vc deseja ? ")
+		leia(valorPassadoPeloUsuario)
+
+		faca{
+			somaTotal += incrementadorLocal
+			incrementadorLocal++
+		}enquanto(incrementadorLocal<=valorPassadoPeloUsuario)
+
+		escreva("O valor da soma é de : ",somaTotal)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 144; 
+ * @POSICAO-CURSOR = 379; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

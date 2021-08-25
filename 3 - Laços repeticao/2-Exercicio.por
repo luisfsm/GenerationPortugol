@@ -3,23 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero, resultado
-		escreva("Entre com um numero : ")
-		leia(numero)
+		inteiro i = 0, qtdeInteiroPorTres = 0
+		
+		para(i; i<=10;i++){
 
-		se(numero%2==0  e numero >= 0){
-			escreva("O numero digitado ",numero, "  par")
+			se(i%2==1 e i%3==0){
+				qtdeInteiroPorTres++
+			}
 		}
-		senao{
-			escreva("O numero digitado ", numero, " impar")	
-		}
-		se(numero>=0){
-			escreva("\nPositivo")	
-		}senao{
-			escreva("\nNegativo")
-			
-		}
-	
+		escreva(qtdeInteiroPorTres)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 144; 
+ * @POSICAO-CURSOR = 127; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
