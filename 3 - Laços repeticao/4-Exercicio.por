@@ -11,7 +11,7 @@ programa
 		enquanto(valorEntrada<=100){
 			escreva(valorEntrada,", ")
 			valorEntrada = valorEntrada * 3
-			escreva(valorEntrada,", ")
+			
 		}
 	}
 }
