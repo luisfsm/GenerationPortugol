@@ -19,9 +19,9 @@ programa
 		para(inteiro i = 0 ; i <LINHAMATRIZES; i++){
 			para(inteiro j = 0; j < LINHACOLUNAS; j++){
 		
-			escreva("Qual o valor do ",i," ",j," valor em n1: ")
+			escreva("Qual o valor do N1[",i,"][",j,"] valor em n1: ")
 			leia(n1[i][j])
-			escreva("Qual o valor do ",i," ",j," valor em n2: ")
+			escreva("Qual o valor do N2[",i,"][",j,"] valor em n2: ")
 			leia(n2[i][j])
 
 			M1[i][j] = n1[i][j] + n2[i][j]
@@ -31,7 +31,7 @@ programa
 		escreva("\n")
 		para(inteiro i = 0 ; i <LINHAMATRIZES; i++){
 			para(inteiro j = 0; j < LINHACOLUNAS; j++){
-			 escreva("N1[",i,"]","[",j,"]"," = ",n1[i][j]," N2[",i,"]","[",j,"]"," = ",n2[i][j]," a soma é de :",M1[i][j]," a diff : ",M2[i][j],"\n" )
+			 escreva("N1[",i,"]","[",j,"]"," = ",n1[i][j]," N2[",i,"]","[",j,"]"," = ",n2[i][j],", a soma é de :",M1[i][j],", a diff : ",M2[i][j],"\n" )
 			
 			}
 		}
@@ -43,9 +43,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 280; 
+ * @POSICAO-CURSOR = 887; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n1, 17, 10, 2}-{n2, 18, 10, 2}-{M1, 19, 10, 2}-{M2, 20, 10, 2};
+ * @SIMBOLOS-INSPECIONADOS = {n1, 14, 10, 2}-{n2, 15, 10, 2}-{M1, 16, 10, 2}-{M2, 17, 10, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
