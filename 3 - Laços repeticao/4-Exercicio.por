@@ -7,11 +7,11 @@ programa
 
 		escreva("Qual o valo meu querido : ")
 		leia(valorEntrada)
-		
+		escreva(valorEntrada,", ")
 		enquanto(valorEntrada<=100){
-			escreva(valorEntrada,", ")
-			valorEntrada = valorEntrada * 3
 			
+			valorEntrada = valorEntrada * 3
+			escreva(valorEntrada,", ")
 		}
 	}
 }
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 229; 
+ * @POSICAO-CURSOR = 266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
