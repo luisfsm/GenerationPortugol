@@ -4,11 +4,9 @@ a) Uma matriz M1 cujos elementos serão as somas dos elementos de mesma posiçã
 b) Uma matriz M2 cujos elementos serão as diferenças dos elementos de mesma posição das matrizes N1 e N2.
  */
 
-programa
-{
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 		const inteiro  LINHAMATRIZES = 2
 		const inteiro 	LINHACOLUNAS = 3
 		inteiro n1[LINHAMATRIZES][LINHACOLUNAS]
@@ -43,9 +41,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 887; 
+ * @POSICAO-CURSOR = 318; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n1, 14, 10, 2}-{n2, 15, 10, 2}-{M1, 16, 10, 2}-{M2, 17, 10, 2};
+ * @SIMBOLOS-INSPECIONADOS = {n1, 12, 10, 2}-{n2, 13, 10, 2}-{M1, 14, 10, 2}-{M2, 15, 10, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

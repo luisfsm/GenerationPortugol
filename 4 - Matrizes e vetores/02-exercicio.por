@@ -14,20 +14,25 @@ programa
 	funcao inicio()
 	{
 		const inteiro TAMANHO = 10
-		real valores[TAMANHO],mediaValores=0.0,valorTotal=0.0
+		inteiro valores[TAMANHO],mediaValores=0,contTotal=0
 
 		para(inteiro i=0;i<TAMANHO;i++){
 			escreva("Entre com os valores no vetor : ")
 			leia(valores[i])
 
-			mediaValores += valores[i]/TAMANHO
-			valorTotal += valores[i]
+			mediaValores += valores[i]
+
+			se(valores[i]==6){
+				contTotal++
+			}
+			
 		}
 		escreva("Dados vetores : \n")
 		para(inteiro i=0;i<TAMANHO;i++){
 			escreva(valores[i]," ")
 		}
-		escreva("\nA Media de vetores e: ",mediaValores,"\nA Soma Dos Valores é : ",valorTotal)
+		mediaValores /= TAMANHO
+		escreva("\nA Media de vetores e: ",mediaValores,"\nQtdes de valores maximo 6 é : ",contTotal)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 294; 
+ * @POSICAO-CURSOR = 593; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
